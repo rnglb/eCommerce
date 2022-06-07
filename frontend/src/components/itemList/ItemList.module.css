@@ -1,0 +1,12 @@
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.list2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.button{
+    border: none;
+  }

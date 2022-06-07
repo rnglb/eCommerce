@@ -1,0 +1,13 @@
+.divVar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 50px;
+    background-color: rgb(128, 128, 225);
+}
+.badge {
+    background-color: #cc2062;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+  }

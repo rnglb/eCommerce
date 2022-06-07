@@ -1,0 +1,326 @@
+00000 jck  --jacket
+https://www.flipkart.com/funday-fashion-full-sleeve-solid-women-jacket/p/itm408e6e74b2d24?pid=JCKFZZ4NUWZQ4R6S&lid=LSTJCKFZZ4NUWZQ4R6SL9MYJ0&marketplace=FLIPKART&sattr[]=color&st=color
+
+    product_id:'00000',
+    product_name:'Full Sleeve Solid Women Jacket',
+    product_brand_name:'Funday Fashion ',
+    product_type:'jck',
+    product_price:1499,
+    product_discountInPercent:74,
+    product_size:['S','M','L','XL'],
+    product_color:['dark blue','light blue'],
+    product_seller:'SYSONLINESTORE',
+    product_pictures:['jck000001.webp','jck000002.webp','jck000003.webp','jck000004.webp','jck000005.webp'],
+    ----------------------------------------------------------------------------------------------------------------------
+
+00001 jns  -- jeans
+https://www.flipkart.com/gsa-mall-slim-women-blue-jeans/p/itmfghhbbsxamfxd?pid=JEAFGAB5G8A8QZVA&lid=LSTJEAFGAB5G8A8QZVAGMA2IA&marketplace=FLIPKART&fm=productRecommendation%2Fsimilar&iid=R%3As%3Bp%3ATROFPJ8BHGHMG8ER%3Bl%3ALSTTROFPJ8BHGHMG8ERJI5K58%3Bpt%3App%3Buid%3A5818bb89-e2fa-11ec-9014-3f8d7ebefd65%3B.JEAFGAB5G8A8QZVA&ppt=pp&ppn=pp&ssid=xd4am60xs00000001654232482663&otracker=pp_reco_Similar%2BProducts_5_33.productCard.PMU_HORIZONTAL_GSA%2BMALL%2BSlim%2BWomen%2BBlue%2BJeans_JEAFGAB5G8A8QZVA_productRecommendation%2Fsimilar_4&otracker1=pp_reco_PINNED_productRecommendation%2Fsimilar_Similar%2BProducts_GRID_productCard_cc_5_NA_view-all&cid=JEAFGAB5G8A8QZVA
+
+        product_id:'00001',
+        product_name:'Slim Women Blue Jeans',
+        product_brand_name:'GSA MALL',
+        product_type:'jns',
+        product_price:799,
+        product_discountInPercent:62,
+        product_size:['26','28','30','32'],
+        product_color:['dark blue','light blue'],
+        product_seller:'G.S.A ENTERPRISES',
+        product_pictures:['jns000011.webp','jns000012.webp','jns000013.webp','jns000014.webp'],
+
+00011 jns  -- jeans
+https://www.flipkart.com/mast-harbour-skinny-women-dark-blue-jeans/p/itmfgbzm9affnszm?pid=JEAFGBGDFMAGHZXM&lid=LSTJEAFGBGDFMAGHZXMH3FNCU&marketplace=FLIPKART&store=clo%2Fvua%2Fk58%2F4hp&srno=b_1_2&otracker=browse&fm=organic&iid=en_cEtI4QYftPowobU9H7S1Lj270I%2FfpMXmP%2FH%2Be92Xp4wQYyHyVjHDgUWSKXsfhh200yA3Stf9FX%2BEebLtT4O3KA%3D%3D&ppt=browse&ppn=browse&ssid=suvzeaqe5c0000001654312739081
+
+        product_id:'00011',
+        product_name:'Skinny Women Dark Blue Jeans',
+        product_brand_name:'Mast & Harbour ',
+        product_type:'jns',
+        product_price:1599,
+        product_discountInPercent:58,
+        product_size:['26','28','30','32'],
+        product_color:['dark blue','light blue'],
+        product_seller:'SANEFASHIONS',
+        product_pictures:['jns000111.webp','jns000112.webp','jns000113.webp','jns000114.webp'],
+
+        --------------------------------------------------------------------------------------------------------------------
+00002 top --- top
+https://www.flipkart.com/fab-star-casual-3-4-sleeve-solid-women-pink-top/p/itm37cd1a6030668?pid=TOPFZNZY5UZAQ5K2&lid=LSTTOPFZNZY5UZAQ5K2IP7RUN&marketplace=FLIPKART&store=clo&srno=b_1_15&otracker=hp_omu_Today%2527s%2BFashion%2BDeals_3_7.dealCard.OMU_5KBUP0B7MPYG_6&otracker1=hp_omu_PINNED_neo%2Fmerchandising_Today%2527s%2BFashion%2BDeals_NA_dealCard_cc_3_NA_view-all_6&fm=neo%2Fmerchandising&iid=643427a5-537d-45b2-9268-4c766d08a19e.TOPFZNZY5UZAQ5K2.SEARCH&ppt=browse&ppn=browse
+
+        product_id:'00002',
+        product_name:'Casual Sleeves Women Pink Top',
+        product_brand_name:'Fab Star',
+        product_type:'top',
+        product_price:1399,
+        product_discountInPercent:72,
+        product_size:['S','M','L','XL','XXL'],
+        product_color:['Blue','Maroon','Pink'],
+        product_seller:'fabstar',
+        product_pictures:['top000021.webp','top000022.webp','top000023.webp','top000024.webp','top000025.webp','top000026.webp'],
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+00003 mblt --- men belt
+https://www.flipkart.com/zoro-men-green-canvas-belt/p/itm74d1ddba71e38?pid=BELFG9YV7KECZ5C2&lid=LSTBELFG9YV7KECZ5C2O5NABH&marketplace=FLIPKART&store=reh%2Fro3&srno=b_1_20&otracker=nmenu_sub_Men_0_Belts&fm=neo%2Fmerchandising&iid=en_LoTqc5%2BQacFqegjXvhFC%2FdVz51ctI6YPLAsZoqV%2Fb%2BaCClr7FVy6XZKui9DJheaUEg3NVpL2XLL2%2FNSYbaaoVg%3D%3D&ppt=browse&ppn=browse&ssid=mx05fgdpls0000001654233789129
+
+product_id:'00003',
+        product_name:'Men Green Canvas Belt',
+        product_brand_name:'ZORO ',
+        product_type:'mblt',
+        product_price:499,
+        product_discountInPercent:67,
+        product_size:['One size'],
+        product_color:['Black','Blue','Brown','Gold','Camin Green'],
+        product_seller:'AlfaTradingCorp',
+        product_pictures:['mblt000031.webp','mblt000032.webp','mblt000033.webp','mblt000034.webp'],
+
+00013 mblt --- men belt
+https://www.flipkart.com/zoro-men-green-canvas-belt/p/itm74d1ddba71e38?pid=BELFG9YV7KECZ5C2&lid=LSTBELFG9YV7KECZ5C2O5NABH&marketplace=FLIPKART&store=reh%2Fro3&srno=b_1_20&otracker=nmenu_sub_Men_0_Belts&fm=neo%2Fmerchandising&iid=en_LoTqc5%2BQacFqegjXvhFC%2FdVz51ctI6YPLAsZoqV%2Fb%2BaCClr7FVy6XZKui9DJheaUEg3NVpL2XLL2%2FNSYbaaoVg%3D%3D&ppt=browse&ppn=browse&ssid=mx05fgdpls0000001654233789129
+
+product_id:'00013',
+        product_name:'Men Artificial Leather Belt',
+        product_brand_name:'KAEZRI ',
+        product_type:'mblt',
+        product_price:999,
+        product_discountInPercent:80,
+        product_size:['One size'],
+        product_color:['Black','Brown','White',],
+        product_seller:'KAEZRI',
+        product_pictures:['mblt000131.webp','mblt000132.webp','mblt000133.webp','mblt000134.webp'],
+        ----------------------------------------------------------------------------------------------------------------------
+
+00004 drs -- dress
+https://www.flipkart.com/aucreations-women-fit-flare-multicolor-dress/p/itm979aef2a86c45?pid=DREG2FM4XNHGYBZW&lid=LSTDREG2FM4XNHGYBZWAA4ZUI&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BWestern_K4M2S29QJWT9&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&fm=organic&iid=en_jYX8B8lQQLo72TAeTt5%2Bj0ZmKQelwoQa2HybBIsX1DFIzpKt47vItL7%2BnwIb0dVeAzrLUQYLOfo6aX69b%2BHD5A%3D%3D&ppt=browse&ppn=browse
+
+product_id:'00004',
+        product_name:'Women Fit and Flare Multicolor Dress',
+        product_brand_name:'AUCREATIONS',
+        product_type:'drs',
+        product_price:1299,
+        product_discountInPercent:79,
+        product_size:['S', 'M', 'L','XL'],
+        product_color:['Black','Blue','Gray','Multicolor'],
+        product_seller:'indiansell',
+        product_pictures:['drs000041.webp','drs000042.webp','drs000043.webp','drs000044.webp','drs000045.webp'],
+        ----------------------------------------------------------------------------------------------------------------------
+
+00005 dho -- dhoti
+https://www.flipkart.com/green-tee-solid-men-dhoti/p/itmfbb65611539f5?pid=DHTFGH7VB9URYGPV&lid=LSTDHTFGH7VB9URYGPV61JBPP&marketplace=FLIPKART&store=clo%2Fcfv%2Fnnk&srno=b_1_5&otracker=browse&fm=organic&iid=c8f63b1d-fcf0-4c8b-baf4-36d7bdfd8a6a.DHTFGH7VB9URYGPV.SEARCH&ppt=browse&ppn=browse&ssid=40sbjxzv680000001654311889414
+
+product_id:'00005',
+        product_name:'GREEN TEE Solid Men Dhoti',
+        product_brand_name:'AUCREATIONS',
+        product_type:'dho',
+        product_price:999,
+        product_discountInPercent:61,
+        product_size:['Free'],
+        product_color:['White'],
+        product_seller:'GreenTee',
+        product_pictures:['dho000051.webp','dho000052.webp','dho000053.webp','dho000054.webp',],
+
+00006 sre -- dhoti
+https://www.flipkart.com/anand-sarees-floral-print-daily-wear-georgette-saree/p/itma693f51f62af5?pid=SARG9HA7KDXYSKFC&lid=LSTSARG9HA7KDXYSKFCRLGE9Y&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BEthnic_HQXTE43PO8HC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L1_view-all&fm=organic&iid=898ca838-d442-4b64-9db4-3f6587642824.SARG9HA7KDXYSKFC.SEARCH&ppt=browse&ppn=browse
+
+product_id:'00006',
+        product_name:'Floral Print Daily Wear Georgette Saree',
+        product_brand_name:'Anand Sarees',
+        product_type:'sre',
+        product_price:1299,
+        product_discountInPercent:79,
+        product_size:['Free'],
+        product_color:['Black','Blue','Dark Green', 'Pink','Red','Yellow'],
+        product_seller:'ANANDSAREES',
+        product_pictures:['sre000061.webp','sre000062.webp','sre000063.webp','sre000064.webp',],
+
+
+
+
+
+
+
+
+const DUMMY_DATA = [
+
+    {
+      id: "i1",
+      title: "item one",
+      image:img1,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i2",
+      title: "item two",
+      image:img2,
+        price: "400",
+        color:
+        "blue",
+    },
+    {
+      id: "i3",
+      title: "item new",
+      image:img1,
+      price: "600",
+      color:
+        "blue",
+    },
+    {
+      id: "i4",
+      title: "item one",
+      image:img2,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i5",
+      title: "item one",
+      image:img1,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i6",
+      title: "item one",
+      image:img2,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i7",
+      title: "item one",
+      image:img1,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i8",
+      title: "item one",
+      image:img2,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i9",
+      title: "item one",
+      image:img1,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i10",
+      title: "item one",
+      image:img2,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i11",
+      title: "item one",
+      image:img1,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i12",
+      title: "item one",
+      image:img2,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i13",
+      title: "item one",
+      image:img1,
+      price: "500",
+      color:
+        "blue",
+    },
+    {
+      id: "i14",
+      title: "item one",
+      image:img2,
+      price: "500",
+      color:
+        "blue",
+    },
+  ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////
+statefull 
+
+
+
+
+Software Consultant at Turing - March 2022 to Present
+
+
+
+
+
+
