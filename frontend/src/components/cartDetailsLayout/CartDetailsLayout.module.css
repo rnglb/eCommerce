@@ -8,13 +8,6 @@
     grid-template-columns: 30% 50% 20%;
     border-bottom: 0.1px solid rgb(199, 197, 197);
 }
-.divHead h1{
-    margin-left: 20px;
-    font-size:18px;
-    font-weight: 700;
-    font-family: Roboto,Arial,sans-serif;
-    margin-top: 20px;
-}
 .divHead p{
     margin-top: 20px;
 }

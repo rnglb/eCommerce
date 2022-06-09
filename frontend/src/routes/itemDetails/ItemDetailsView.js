@@ -1,17 +1,17 @@
-import { useEffect, useState, useContext } from 'react';
+import {  useContext } from 'react';
 import { useNavigate } from "react-router-dom";
 import CartContext from '../../store/Data-context';
-import ImageView from '../../ui/image/ImageView';
+import ImageView from '../../ui/ImageView';
 import usePostFetch from '../../customHook/usePostFetch';
-import Heading from '../../styledComponents/Heading';
+import Heading from '../../ui/Heading';
 import classes from './ItemDetailsView.module.css';
+
+let productDetails = null;
 const ItemDetailsView = () => {
-  const [isLoading, toggleLoading] = useState(true)
   let navigate = useNavigate();
   const cartContext = useContext(CartContext);
   const itemIsPresentInCart = cartContext.itemIsPresentInCart(cartContext.selectedItemId);
 
-  let productDetails = null;
   productDetails = usePostFetch("http://localhost:4000/productDetails",{ id: cartContext.selectedItemId });
   
   function cartStatusHandler() {
@@ -54,11 +54,10 @@ const ItemDetailsView = () => {
         <ImageView src={'http://localhost:4000/img/' + productDetails[0].product_pictures[0]} alt={'seledted Img'} />
 
         <div className={classes.content}>
-          <h1>{productDetails[0].product_name}</h1>
+          <Heading Large>{productDetails[0].product_name}</Heading>
           <p>{productDetails[0].product_color[0]}</p>
           <p>{productDetails[0].product_price}</p>
           <button onClick={cartStatusHandler}>Add to cart</button>
-          <Heading />
         </div>
       </div>
     )

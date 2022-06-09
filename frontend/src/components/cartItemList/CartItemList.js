@@ -1,4 +1,4 @@
-import ImageView from "../../ui/image/ImageView";
+import ImageView from "../../ui/ImageView";
 import Button from "../../ui/button/Button";
 import classes from "./CartItemList.module.css";
 

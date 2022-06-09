@@ -1,6 +1,6 @@
 import Card from "../../ui/card/Card";
 import classes from "./ItemData.module.css";
-import ImageView from "../../ui/image/ImageView";
+import ImageView from "../../ui/ImageView";
 
 function ItemData(props) {
   return (
