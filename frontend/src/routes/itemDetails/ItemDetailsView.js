@@ -1,18 +1,19 @@
 import {  useContext } from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import CartContext from '../../store/Data-context';
 import ImageView from '../../ui/ImageView';
 import usePostFetch from '../../customHook/usePostFetch';
-import Heading from '../../ui/Heading';
+import HeadingView from '../../ui/HeadingView';
 import classes from './ItemDetailsView.module.css';
 
 let productDetails = null;
 const ItemDetailsView = () => {
+  const {id} = useParams();
   let navigate = useNavigate();
   const cartContext = useContext(CartContext);
-  const itemIsPresentInCart = cartContext.itemIsPresentInCart(cartContext.selectedItemId);
+  const itemIsPresentInCart = cartContext.itemIsPresentInCart(id);
 
-  productDetails = usePostFetch("http://localhost:4000/productDetails",{ id: cartContext.selectedItemId });
+  productDetails = usePostFetch("http://localhost:4000/productDetails",{ id: id });
   
   function cartStatusHandler() {
     fetch(
@@ -54,7 +55,7 @@ const ItemDetailsView = () => {
         <ImageView src={'http://localhost:4000/img/' + productDetails[0].product_pictures[0]} alt={'seledted Img'} />
 
         <div className={classes.content}>
-          <Heading Large>{productDetails[0].product_name}</Heading>
+          <HeadingView Large>{productDetails[0].product_name}</HeadingView>
           <p>{productDetails[0].product_color[0]}</p>
           <p>{productDetails[0].product_price}</p>
           <button onClick={cartStatusHandler}>Add to cart</button>

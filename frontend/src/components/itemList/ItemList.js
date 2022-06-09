@@ -1,18 +1,14 @@
 import ItemData from '../itemData/ItemData';
 import { useNavigate } from "react-router-dom";
-import { useContext} from 'react';
 import LoadingSpinner from '../../ui/LoadingSpinner';
 import useGetFetch from '../../customHook/useGetFetch';
 import classes from './ItemList.module.css';
-import CartContext from "../../store/Data-context";
 function ItemList() {
-  const cartContext = useContext(CartContext);
   let navigate = useNavigate();
   let data = null;
   data = useGetFetch("http://localhost:4000/productListDetails");
 
   const viewProductHandler = (selectedItemId) => {
-    cartContext.updateSelectedItemId(selectedItemId);
     navigate("../viewItem/"+selectedItemId, { replace: true });
   }
 
