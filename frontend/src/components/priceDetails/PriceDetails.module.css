@@ -1,0 +1,17 @@
+.rightDiv{
+    border: 0.5px solid rgb(223, 221, 221);
+    margin: 25px 10px 5px 10px;
+    height: 300px;
+}
+.bilheading{
+    padding: 10px;
+    color: gray;
+    font-weight: bolder;
+    font-family: Roboto,Arial,sans-serif;
+}
+.bilDetails{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+}

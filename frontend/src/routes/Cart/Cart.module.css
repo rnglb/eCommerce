@@ -1,0 +1,6 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: 67% 33%;
+}
+
+

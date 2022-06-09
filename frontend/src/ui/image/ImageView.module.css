@@ -1,0 +1,10 @@
+
+  .image {
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .image img {
+    width: 100%;
+  }
