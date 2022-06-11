@@ -8,7 +8,7 @@ const MainNavigation =()=>{
     const cartContext = useContext(CartContext);
 return(
     <div className={classes.divVar}>
-        <div> React eCommerse</div>
+        <h1> React eCommerse</h1>
         <div> <Link to='/'>Home</Link> </div> 
         <div> <Link to='/account/login'>Login</Link>  </div>
         <div> <Link to='/viewcart'>cart

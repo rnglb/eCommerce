@@ -1,5 +1,6 @@
 import ImageView from "../../ui/ImageView";
-import Button from "../../ui/button/Button";
+import CartItmQuantity from "./cartItemQuantity/CartItemQuantity";
+import CartItemDetails from "./cartItemDetails/CartItemDetails";
 import classes from "./CartItemList.module.css";
 
 const CartItemList = (props) =>{
@@ -10,29 +11,15 @@ const CartItemList = (props) =>{
                 <div className={classes.content}>
                     <div>
                     <ImageView src={'http://localhost:4000/img/' + item.product_pictures[0]} alt={'item image'} small/>
-                    <div className={classes.quantity}> 
-                        <Button Round>-</Button>
-                        <Button small>2</Button>
-                        <Button Round>+</Button>
+                    <CartItmQuantity />
                     </div>
-                    </div>
-                    <div>
-                         <h4>{item.product_name}</h4>
-                         <p>{item.product_color[0]}</p>
-                         <p>Seller: {item.product_seller}</p>
-                         <p>
-                             <span style={{color:'gray', textDecoration:'line-through'}}>
-                                 ₹{item.product_price}
-                                 </span>
-                            <span style={{fontWeight:'bold',fontSize:'20px'}}> 
-                             ₹{Math.round(eval("item.product_price * item.product_discountInPercent /100"))}
-                               </span>
-                            <span style={{color:'green',fontWeight:'bold'}}>
-                                {item.product_discountInPercent}% Off Discount applied </span>
-                                </p>
-                         <Button>SAVE FOR LATER</Button>
-                         <Button>REMOVE</Button>
-                    </div>
+                     <CartItemDetails 
+                        product_name={item.product_name}
+                        product_color={item.product_color[0]}
+                        product_seller={item.product_seller}
+                        product_price={item.product_price}
+                        product_discountInPercent={item.product_discountInPercent}
+                        />
                     <div className={classes.deliveryContent}>
                         Delivery by Fri Jun 10 | Free₹40
                     </div>

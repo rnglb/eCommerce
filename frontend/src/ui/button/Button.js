@@ -15,8 +15,9 @@ const Button = (props) => {
     width: '50px',
     borderRadius: '2px'
     }:{})
+    const clickEvent = props.onclickEvent?props.onclickEvent:"";
     return(
-        <button
+        <button onClick={clickEvent}
         style={css}
         >{props.children}</button>
     )

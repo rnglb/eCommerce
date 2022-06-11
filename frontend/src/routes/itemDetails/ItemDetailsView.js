@@ -26,7 +26,7 @@ const ItemDetailsView = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ id: cartContext.selectedItemId, quantity: 1 }),
+        body: JSON.stringify({ id: productDetails[0].product_id, quantity: 1 }),
       }
     )
       .then((response) => {

@@ -7,8 +7,6 @@ const CartContext = createContext({
     addCartItem: (cartItems)=>{},
     removeCartItem:(itemId)=>{},
     itemIsPresentInCart: (itemId)=>{},
-    selectedItemId:"",
-    updateSelectedItemId: ()=>{}
 });
 
 export function CartContextProvider(props){
@@ -27,7 +25,7 @@ export function CartContextProvider(props){
     }
   }
 }
-    
+
     function addCartItemHandler(CartItem){
         setCartItemList((prevCartItemList) =>{
           return prevCartItemList.concat(CartItem);
@@ -41,18 +39,12 @@ export function CartContextProvider(props){
     function itemIsPresentInCartHandler(CartItemId){
      return cartItemList.some(CartItem => CartItem.id === CartItemId)
     }
-
-    const selectedItemHandler = (selectedItem) => {
-        setSelectedItemId(selectedItem);
-        }
     const contextValue = {
         cartItems: cartItemList,
         totalCartItem: cartItemList.length,
         addCartItem: addCartItemHandler,
         removeCartItem: removeCartItemHandler,
         itemIsPresentInCart: itemIsPresentInCartHandler,
-        selectedItemId:selectedItemId,
-        updateSelectedItemId: selectedItemHandler  
       }
     
      return (

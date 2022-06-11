@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from 'react';
 import CartContext from '../../store/Data-context';
 import PriceDetails from '../../components/priceDetails/PriceDetails';
 import CartDetailsLayout from '../../components/cartDetailsLayout/CartDetailsLayout';
+import usePostFetch from '../../customHook/usePostFetch';
 import classes from './Cart.module.css';
 var cartProductList = [];
 const Cart = () => {
